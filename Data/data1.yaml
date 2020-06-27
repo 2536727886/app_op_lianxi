@@ -1,0 +1,57 @@
+# 注释
+
+# ：后跟空格，在跟内容，否则会被当成字符串
+#name: "lili"
+#Name: "lili"
+
+# 对象的写法、第一种
+#info1: {"name": "lili","age": "11"}?
+
+# 对象的写法，第二种
+#info2:
+#  name: "lili"
+#  age: "11"
+
+## 列表，yaml数组的写法,-代表列表
+#data:
+#  - "lili"
+#  - "女"
+
+# 第二种列表写法json格式
+#data:
+#  - name: "lili"
+#  - sex: "女"
+
+# python列表三
+#data: ["name", "lili"]
+
+# ：后跟空格，在跟内容，否则会被当成字符串
+#name: "lili"
+#Name: "lili"
+# 字符串，yaml会自动转换 一些数据类型，不加双引号也行
+#name_str: lili
+
+# 整数，浮点数
+#int_val: 12
+#int_fal: 12.11
+
+# 布尔值
+# yaml布尔值
+#v1: true
+#v2: false
+# python布尔值
+#v1: True
+#v2: False
+
+# 空类型：~
+#val: ~
+# 空类型：不赋值
+#val:
+# 空类型：js，shell，Java空类型
+#val1: Null
+#val2: null
+
+# 日期类型
+data1: 2020-01-11 01:23:33
+data2: 2020-01-11
+data3: 01:23:33

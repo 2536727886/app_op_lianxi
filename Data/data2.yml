@@ -1,0 +1,7 @@
+info: &data # 锚点，等价于当前子节点
+  name: "lili"
+  phone: "13356745568"
+
+address:
+  <<: *data # 引用锚点的的内容，复制一份到这里
+  detail: "黑马程序员"
